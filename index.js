@@ -1,6 +1,13 @@
 import 'dotenv/config';
 import { Client, GatewayIntentBits, Partials } from "discord.js";
 
+console.log(
+  "ENV check → has DISCORD_TOKEN:",
+  typeof process.env.DISCORD_TOKEN === "string",
+  "len:",
+  (process.env.DISCORD_TOKEN || "").length
+);
+
 const TOKEN = process.env.DISCORD_TOKEN;
 const THRESHOLD = Number(process.env.THRESHOLD || 300);
 const COOLDOWN_SECONDS = Number(process.env.COOLDOWN_SECONDS || 60);
