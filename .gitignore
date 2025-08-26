@@ -1,0 +1,17 @@
+# Dependency directories
+node_modules/
+
+# Environment variables (contains your DISCORD_TOKEN)
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+
+# Editor settings
+.idea/
+.vscode/
