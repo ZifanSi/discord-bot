@@ -9,7 +9,7 @@ console.log(
 );
 
 const TOKEN = process.env.DISCORD_TOKEN;
-const THRESHOLD = Number(process.env.THRESHOLD || 300);
+const THRESHOLD = Number(process.env.THRESHOLD || 750);
 const COOLDOWN_SECONDS = Number(process.env.COOLDOWN_SECONDS || 60);
 
 if (!TOKEN) {
